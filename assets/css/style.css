@@ -4,6 +4,8 @@
 /* fonts */
 @font-face {
   font-family: "Quicksand";
+  font-style: normal;
+  font-display: swap;
   src: url("../fonts/Quicksand-Regular.woff2") format("woff2");
 }
 /* end of fonts */
@@ -33,3 +35,24 @@ body {
   position: relative;
   background-color: var(--dark);
 }
+
+/* header */
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: var(--light);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+header img {
+  height: 100%;
+  display: block;
+}
+header h1 {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 2rem;
+}
+/* end of header */
