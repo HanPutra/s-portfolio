@@ -14,6 +14,9 @@
 :root {
   --dark: #1f1f1f;
   --light: #e0e0e0;
+  --regular: 400;
+  --semibold: 600;
+  --bold: 700;
 }
 /* end of global variable */
 
@@ -34,6 +37,7 @@ body {
   min-height: 100vh;
   position: relative;
   background-color: var(--dark);
+  color: var(--light);
 }
 
 /* header */
@@ -52,7 +56,7 @@ header img {
 }
 header h1 {
   color: var(--dark);
-  font-weight: 700; /* bold */
+  font-weight: var(--bold);
   font-size: 2rem;
 }
 /* end of header */
@@ -78,6 +82,43 @@ nav ul li a {
   color: var(--dark);
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: 600; /* semibold */
+  font-weight: var(--semibold);
 }
 /* end of nav */
+
+main {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* about */
+.about {
+  display: flex;
+  gap: 6rem;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-text {
+  max-width: 45vw;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: var(--semibold);
+  border-radius: 1.5rem;
+  color: var(--dark);
+  background-color: var(--light);
+}
+.about .about-image {
+  width: 33.3vh;
+  height: 33.3vh;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--light);
+}
+.about .about-image img {
+  width: 100%;
+  position: absolute;
+}
+/* end of about */
