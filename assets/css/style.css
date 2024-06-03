@@ -1,0 +1,35 @@
+/* author: Handika Putra  */
+/* github account: https://github.com/HanPutra */
+
+/* fonts */
+@font-face {
+  font-family: "Quicksand";
+  src: url("../fonts/Quicksand-Regular.woff2") format("woff2");
+}
+/* end of fonts */
+
+/* global variable */
+:root {
+  --dark: #1f1f1f;
+  --light: #e0e0e0;
+}
+/* end of global variable */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fix overflow because display flex or grid */
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--dark);
+}
