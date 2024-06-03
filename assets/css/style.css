@@ -52,7 +52,32 @@ header img {
 }
 header h1 {
   color: var(--dark);
-  font-weight: 700;
+  font-weight: 700; /* bold */
   font-size: 2rem;
 }
 /* end of header */
+
+/* nav */
+nav {
+  height: 10vh;
+  position: fixed;
+  right: 0;
+  padding: 0 1.5rem;
+}
+nav ul {
+  height: 100%;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  color: var(--dark);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600; /* semibold */
+}
+/* end of nav */
