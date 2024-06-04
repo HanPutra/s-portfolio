@@ -26,9 +26,10 @@
   box-sizing: border-box;
 }
 
-/* fix overflow because display flex or grid */
+/* fix overflow because display flex or grid and scroll smooth */
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
