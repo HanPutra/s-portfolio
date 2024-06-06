@@ -1,6 +1,6 @@
 # s-portfolio
 
-Welcome to my online portfolio! This website is designed to showcase my work, experience, and skills as a [web developer].
+Welcome to my online portfolio! This website is designed to showcase my work, experience, and skills as a web developer.
 
 ## Direct Link
 
