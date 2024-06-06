@@ -156,7 +156,7 @@ main {
   padding-right: 1rem;
 }
 .skills .sub-skills-title h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: var(--semibold);
   white-space: nowrap;
 }
@@ -375,47 +375,6 @@ footer .contact p {
   }
   /* end of about */
   /* skills */
-  .skills {
-    width: 100%;
-    min-height: 100vh;
-    padding: 0 2rem 2rem 2rem;
-    padding-top: calc(10vh + 2rem);
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .skills h2 {
-    font-size: 2rem;
-    font-weight: var(--bold);
-    text-align: center;
-  }
-  .skills .sub-skills-title {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding-right: 1rem;
-  }
-  .skills .sub-skills-title h3 {
-    font-size: 1.25rem;
-    font-weight: var(--semibold);
-    white-space: nowrap;
-  }
-  .skills .sub-skills-title hr {
-    height: 0.25rem;
-    width: 100%;
-    background-color: var(--light);
-    border-radius: 0.125rem;
-  }
-  .skills .sub-skills-desc {
-    display: flex;
-    gap: 1.5rem;
-    font-size: 1.25rem;
-    font-weight: var(--semibold);
-    justify-content: center;
-    align-items: center;
-  }
   /* end of skills */
   /* projects */
   .projects {
