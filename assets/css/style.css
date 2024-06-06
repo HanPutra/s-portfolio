@@ -396,41 +396,9 @@ footer .contact p {
   }
   /* end of certifications */
   footer {
-    width: 100%;
-    height: 40vh;
-    background-color: var(--light);
-    color: var(--dark);
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    position: relative;
-  }
-  footer p.copy {
-    font-size: 1.5rem;
-    font-weight: var(--semibold);
-    position: absolute;
-    bottom: 1rem;
-    left: 0;
-    right: 0;
-  }
-  footer p.copy a {
-    text-decoration: none;
-    color: var(--dark);
+    height: 25vh;
   }
   /* contact */
-  footer .contact {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  footer .contact h2 {
-    font-size: 2rem;
-    font-weight: var(--bold);
-  }
-  footer .contact p {
-    font-size: 1.5rem;
-    font-weight: var(--semibold);
-  }
   /* end of contact */
 }
 
