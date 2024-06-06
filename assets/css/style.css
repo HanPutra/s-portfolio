@@ -552,6 +552,8 @@ footer .contact p {
   }
   footer p.copy {
     font-size: 1rem;
+    right: 1rem;
+    left: 1rem;
   }
   /* contact */
   footer .contact {
